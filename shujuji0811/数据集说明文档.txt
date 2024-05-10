@@ -1,0 +1,10 @@
+共七类，标签名即文件夹名的拼音，列出如下，共1181张，标签类型为json，2022.8.11工厂集中拍摄，用于语义分割任务
+标签：[duanjing, shuangjing, jindangzi, songdangzi, duanwei, daiwei, Background]
+几点说明：
+1、无瑕疵类的标注范围是整张图片，标签名是Background
+2、除“断纬和带纬”和“松档子和带纬”文件夹外，其余文件夹中每张图均只有一类瑕疵；而前述的两个文件夹则无法保证这一点，但可以保证瑕疵种类即文件夹名字
+
+2023.5.11更新日志：
+1、修改两处标签错误：断经和双经的标签应为duanjing和shuangjing，而非duanjin和shuangjin
+2、去除buhuitong类，将其并入duanwei
+3、去除quyu类，将其并入daiwei
